@@ -59,7 +59,7 @@ pub use node_primitives::{AccountId, Balance, BlockNumber, Hash, Index, Moment, 
 /// Import the template pallet.
 pub use pallet_template;
 
-mod constants;
+pub mod constants;
 
 // Make the WASM binary available.
 #[cfg(feature = "std")]
